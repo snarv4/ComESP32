@@ -14,7 +14,7 @@ class DatosSensor:
         self.valor = valor
 
 # --- Logica de RED
-sock = socket(socket.AF_INET. socket.SOCK_STREAM)
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 def conectar():
     try:
